@@ -70,5 +70,13 @@ public class PlayerController : MonoBehaviour
                 End();
         }
     }
-  
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Column"))
+        {
+            Debug.Log("Hit Column");
+            //curTimeText.text += (10000000f).ToString("F2");
+        }
+    }
 }

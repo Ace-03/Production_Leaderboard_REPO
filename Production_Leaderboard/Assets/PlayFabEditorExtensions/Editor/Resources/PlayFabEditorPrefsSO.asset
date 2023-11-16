@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d0199c11aa6f514784c5c69cd8378d8, type: 3}
   m_Name: PlayFabEditorPrefsSO
   m_EditorClassIdentifier: 
-  DevAccountEmail: ianw03@icloud.com
-  DevAccountToken: m3k955oebpaxrbok89oa6fee1dfqh8q7b4h4sz7p414wajzg61ribjuwxieds3gkaq69njifi973cbztf3sptfj3eyqxgjeqm5uayak48o5iftbajta7qzpncexms6jphujcsqpkzgxgz6kipoaf1wr39ahrnc8qgg1139gipzikgioxwwio1xzb64ya69gg4xnifn7b
+  DevAccountEmail: 
+  DevAccountToken: 
   AadAuthorization: 
-  SelectedStudio: SIM 251 Production Leaderboard
-  SdkPath: Assets/PlayFabSDK
+  SelectedStudio: 
+  SdkPath: 
   EdExPath: 
   LocalCloudScriptPath: 
   PanelIsShown: 0

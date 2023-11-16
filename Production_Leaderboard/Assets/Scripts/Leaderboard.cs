@@ -21,7 +21,7 @@ public class Leaderboard : MonoBehaviour
 
     public void DisplayLeaderboard()
     {
-        Debug.Log("DisplayLeaderboard was called");
+        //Debug.Log("DisplayLeaderboard was called");
 
         GetLeaderboardRequest getLeaderboardRequest = new GetLeaderboardRequest
         {
@@ -29,17 +29,17 @@ public class Leaderboard : MonoBehaviour
             MaxResultsCount = 10
         };
 
-        Debug.Log("test 1");
+        //Debug.Log("test 1");
         PlayFabClientAPI.GetLeaderboard(getLeaderboardRequest,
             result => UpdateLeaderboardUI(result.Leaderboard),
             error => Debug.Log(error.ErrorMessage)
             );
-        Debug.Log("test 2");
+        //Debug.Log("test 2");
     }
 
     void UpdateLeaderboardUI(List<PlayerLeaderboardEntry> leaderboard)
     {
-        Debug.Log("UpdateLeaderboardUI was called");
+        //Debug.Log("UpdateLeaderboardUI was called");
 
         for (int x = 0; x < leaderboardEntries.Length; x++)
         {
@@ -55,7 +55,7 @@ public class Leaderboard : MonoBehaviour
 
     public void SetLeaderboardEntry(int newScore)
     {
-        Debug.Log("SetLeaderboardEntry was called");
+        //Debug.Log("SetLeaderboardEntry was called");
 
         ExecuteCloudScriptRequest request = new ExecuteCloudScriptRequest
         {
